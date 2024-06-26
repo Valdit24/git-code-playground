@@ -1,9 +1,8 @@
-function zmiana(div)
-{
-if (div.className == "czarny")
-div.className = "czerwony";
-else
-div.className = "czarny";
+function zmiana(div) {
+    if (div.className == "czarny")
+        div.className = "czerwony";
+    else
+        div.className = "czarny";
 }
 
-console.log('JS loaded')
+console.log('JS loaded well')
