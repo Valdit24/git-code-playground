@@ -1,0 +1,59 @@
+body {
+    background-color: #d3eca0;
+}
+
+ul {
+    list-style-type: none;
+    background: url(menu.png) repeat-x;
+    font-size: 23px;
+    width: 332px;
+    border-radius: 15px;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+    padding: 5px;
+}
+
+ul li a:hover {
+    background: rgb(45, 75, 80);
+    border-radius: 2px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #303030;
+}
+
+#menu {
+    width: 372px;
+    height: 27px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#srodek {
+    margin-top: 30px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: #e8edef;
+    padding: 30px;
+}
+
+.czerwony {
+    color: red;
+}
+
+.czarny {
+    color: black;
+}
+
+#podkreslonyDiv {
+    text-decoration: underline;
+    display: inline;
+    cursor: pointer;
+}
